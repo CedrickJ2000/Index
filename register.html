@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+     <title>navigation</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <i class="fa fa-film"></i>
+            <h4>MovieHub</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <div class="conti">
+        <div class="formal">
+            <h2>Register</h2>
+        <form  id="registerForm">
+                <label>
+                    <span>UserName</span>
+                    <input id="Uname" type="text" name="Uname" required>
+                </label>
+            <label>
+                <span>FirstName</span>
+                <input id="Fname" type="text" name="Fname" required>
+            </label>
+            <label>
+                <span>LastName</span>
+                <input id="Lname" type="text" name="Lname" required>
+            </label>
+            <label>
+                <span>Email Address</span>
+                <input id="Email" type="email" name="Email" required>
+            </label>
+            <label>
+                <span>Password</span>
+                <input id="Password" type="password" name="Password" required>
+            </label>
+            
+            <button id="register" class="submit" type="submit">Register</button>
+        </form>
+        </div>
+    </div>
+</body>
+<script src="register.js"></script>
+</html>
