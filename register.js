@@ -21,7 +21,7 @@ const creatUser = async () => {
         })
     }
 
-    const response = await fetch("http://localhost:8080/api/add/user", options);
+    const response = await fetch("https://servermoviehub.herokuapp.com/api/add/user", options);
     const resData = await response.json();
     console.log(resData);
 }
